@@ -95,4 +95,4 @@ async def get_rc_details(reg_no: str = Query(..., description="Vehicle Registrat
 
 @app.get("/")
 def home():
-    return {"message": "Sarfraj Bhai API is Live!"}
+    return {"message": " API is Live!"}
